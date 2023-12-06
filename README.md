@@ -17,7 +17,7 @@ npm start
 ```
 
 ## SignUp
-```http
+```
 POST: localhost:3000/users/signup
 Body: {
   'username': String,
@@ -27,7 +27,7 @@ Body: {
 ```
 
 ## SignIn
-```http
+```
 POST: localhost:3000/users/signin
 Body: {
   'email': String,
@@ -36,7 +36,7 @@ Body: {
 ```
 
 ## Create Note
-```http
+```
 POST: localhost:3000/notes/
 Headers: {
   Authorization: Bearer <JWT Token>
@@ -48,7 +48,7 @@ Body: {
 ```
 
 ## Get Notes
-```http
+```
 GET: localhost:3000/notes/
 Headers: {
   Authorization: Bearer <JWT Token>
@@ -56,7 +56,7 @@ Headers: {
 ```
 
 ## Get Note Using ID
-```http
+```
 GET: localhost:3000/notes/{noteId}
 Headers: {
   Authorization: Bearer <JWT Token>
@@ -64,7 +64,7 @@ Headers: {
 ```
 
 ## Update Note
-```http
+```
 PUT: localhost:3000/notes/{noteId}
 Headers: {
   Authorization: Bearer <JWT Token>
@@ -76,7 +76,7 @@ Body: {
 ```
 
 ## Delete Note
-```http
+```
 DELETE: localhost:3000/notes/{noteId}
 Headers: {
   Authorization: Bearer <JWT Token>
